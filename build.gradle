@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE'
+    compile 'com.mangofactory:swagger-springmvc:0.9.5'
+    compile 'org.ajar:swagger-spring-mvc-ui:0.4'
+    compile 'org.apache.tomcat.embed:tomcat-embed-jasper:8.0.20'
+
+    testCompile 'junit:junit:4.11'
+}
